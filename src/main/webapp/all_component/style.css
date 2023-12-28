@@ -1,0 +1,79 @@
+.bg-custom{
+	background-color:#4d1a00;
+}
+
+.navbar .nav-item:hover .nav-link {
+	background-color: white;
+	color: #4d1a00;
+	border-radius: 15px;
+}
+
+.custom2{
+	color: #331a00;
+}
+
+.customs:hover{
+	background-color: #4d2800; 
+	color: white;
+	border-color:#4d2800; 
+}
+
+.customs{
+	background-color: #fff4e6;
+	color: black;
+	border-color:#ffdab3; 
+}
+.tcolor{
+	color:black;
+}
+.btnd{
+	background-color: #663c00;
+	color:white;
+}
+
+.btnd:hover{
+	background-color:#995700;
+	color:black;
+}
+
+
+#toast {
+	min-width: 300px;
+	position: fixed;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -125px;
+	background: #333;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	z-index: 1;
+	font-size: 18px;
+	visibility: hidden;
+	box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display {
+	visibility: visible;
+	animation: fadeIn 0.5, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn {from { bottom:0;
+	opacity: 0;
+}
+
+to {
+	bottom: 30px;
+	opacity: 1;
+}
+
+}
+@keyframes fadeOut {form { bottom:30px;
+	opacity: 1;
+}
+
+to {
+	bottom: 0;
+	opacity: 0;
+}
+}

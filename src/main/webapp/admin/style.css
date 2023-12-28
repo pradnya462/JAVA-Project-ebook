@@ -1,0 +1,38 @@
+.bg-custom{
+	background-color:#4d1a00;
+}
+
+.navbar .nav-item:hover .nav-link{
+	background-color: white;
+	color: #4d1a00;
+	border-radius: 15px;
+}
+
+.custom2{
+	color: #331a00;
+}
+
+.customs:hover{
+	background-color: #4d2800; 
+	color: white;
+	border-color:#4d2800; 
+}
+
+.customs{
+	background-color: #fff4e6;
+	color: black;
+	border-color:#ffdab3; 
+}
+.tcolor{
+	color:black;
+}
+.btnd{
+	background-color: #663c00;
+	color:white;
+}
+
+.btnd:hover{
+	background-color:rgb(0, 255, 64)6;
+	color:black;
+}
+
